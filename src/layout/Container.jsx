@@ -1,4 +1,4 @@
-import "./css/Container.css"
+import "../styles/layout/Container.css"
 import FormatCamelCase from "../pages/textFormat/FormatCamelCase";
 
 
