@@ -1,8 +1,8 @@
-import "../styles/layout/Header.css"
+import classes from "../styles/layout/Header.module.css"
 
 const Header = () => {
     return (
-        <header className="header">
+        <header className={classes.header}>
               Header
         </header>
     )

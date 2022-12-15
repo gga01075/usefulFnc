@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import  CButton  from '../../components/CButton';
+import  CButton  from '../../../components/CButton';
 
 const FormatCamelCase = () => {
     const [txt, setTxt] = useState('');

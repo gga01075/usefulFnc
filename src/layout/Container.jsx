@@ -1,10 +1,10 @@
-import "../styles/layout/Container.css"
-import FormatCamelCase from "../pages/textFormat/FormatCamelCase";
+import classes from "../styles/layout/Container.module.css"
+import FormatCamelCase from "../pages/functions/textFormat/FormatCamelCase";
 
 
 const Container = () => {
     return (
-        <section className="section">
+        <section className={classes.container}>
               <FormatCamelCase />
         </section>
     )
